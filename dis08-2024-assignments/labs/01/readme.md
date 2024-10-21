@@ -1,5 +1,5 @@
 # Markdown Syntax 
-| Syntax | Description |
+| Feature | Markdown Syntax |
 |--------|-------------|
-| Header | Title       |
+| Heading 1 | # Heading 1       |
 | Paragraph | Text     |
