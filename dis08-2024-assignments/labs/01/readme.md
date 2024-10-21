@@ -2,4 +2,5 @@
 | Feature | Markdown Syntax |
 |--------|-------------|
 | Heading 1 | # Heading 1       |
-| Paragraph | Text     |
+| Heading 2 | ## Heading 2     |
+| Bold Text | 	**Bold Text**  |
