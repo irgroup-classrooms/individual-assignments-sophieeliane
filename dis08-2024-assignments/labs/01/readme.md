@@ -8,7 +8,7 @@
 | Bold and Italic | ***Bold and Italic*** |
 | Unordered List | - Item 1 <br> Item 2 |
 | Ordered List | 1. First item <br> 2. Second item | 
-| Link | [Text]( ) | 
+| Link | [Text](URL) | 
 | Image | ![Alt Text](Image URL) |
 | Inline Code | `code` |
 
