@@ -46,3 +46,7 @@ Here’s a shortened version of your to-do list:
 | Image | ![Alt Text](Image URL) |
 | Inline Code | `code` |
 
+
+# a quote that inspires me.
+"In God we trust; all others must bring data." ~ W. Edwards Deming
+
