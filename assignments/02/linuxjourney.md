@@ -43,7 +43,7 @@ If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a goo
 
 cd ..
 
-#Frage 4
+# Frage 4
 
 Exercises
 Run ls with different flags and see the output you receive.
@@ -65,7 +65,25 @@ What command would you use to see hidden files? --> ls -a
 
 # Frage 5 touch 
 $ ls -l superduperfile
--rw-r--r-- 1 ladmin 197121 0 Oct 30 12:56 superduperfile
+-rw-r--r-- 1 ladmin 197121 0 Oct 30 14:46 superduperfile
 
+Quiz 
+
+How do you create a file called myfile?
+touch myfile
+
+# Frage 6 file
+
+Exercises
+
+Run the file command on a few different directories and files and note the output.
+$ file DIS08_WS24_01_Introduction.pdf
+DIS08_WS24_01_Introduction.pdf: PDF document, version 1.3, 8 page(s)
+
+Quiz
+
+What command can you use to find the file type of a file? --> file
+
+# Frage 7 cat 
 
 
