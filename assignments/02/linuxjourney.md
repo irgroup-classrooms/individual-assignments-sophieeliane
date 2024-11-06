@@ -100,7 +100,19 @@ $ echo "hallo" > textfile.txt
 ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
 $ cat textfile.txt
 hallo
+
+Quiz
+What's a good way to see the contents of a file?
+cat
 ```
+```
+# Frage 8
+Exercises
+Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+
+Quiz
+How do you quit out of a less command?
+q
 
 
 
