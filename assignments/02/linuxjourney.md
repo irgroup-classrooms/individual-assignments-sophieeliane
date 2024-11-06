@@ -83,7 +83,17 @@ DIS08_WS24_01_Introduction.pdf: PDF document, version 1.3, 8 page(s)
 Quiz
 
 What command can you use to find the file type of a file? --> file
+```
+# Frage 7 cat
+Excersice
+Run cat on different files and directories. Then try to cat multiple files.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ echo "hallo" > textfile.txt
 
-# Frage 7 cat 
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ cat textfile.txt
+hallo
+```
+
 
 
