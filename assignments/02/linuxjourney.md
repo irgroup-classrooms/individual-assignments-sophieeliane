@@ -199,6 +199,24 @@ $ history
 
 Quiz
 What is the command to clear the terminal?
+clear
+```
+```
+# Frage 10 cp (Copy)
+Exercises
+Copy over a couple of files, be careful not to overwrite anything important.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ cp textfile.txt /c/Users/selia/OneDrive/th\ köln/3\ Semester
+
+
+Quiz
+What flag do you need to specify to copy over a directory?
+-r
+```
+```
+#Frage 11
+
+
 
 
 
