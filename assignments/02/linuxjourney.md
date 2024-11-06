@@ -109,6 +109,15 @@ cat
 # Frage 8
 Exercises
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ less textfile.txt
+
+q - Used to quit out of less and go back to your shell.
+Page up, Page down, Up and Down - Navigate using the arrow keys and page keys.
+g - Moves to beginning of the text file.
+G - Moves to the end of the text file.
+/search - You can search for specific text inside the text document. Prefacing the words you want to search with /
+h - If you need a little help about how to use less while you’re in less, use help.
 
 Quiz
 How do you quit out of a less command?
