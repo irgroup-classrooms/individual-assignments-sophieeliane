@@ -215,6 +215,34 @@ What flag do you need to specify to copy over a directory?
 ```
 ```
 #Frage 11
+Exercises
+Rename a file, then move that file to a different directory.
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ mv textfile.txt textfile2.txt
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ mv textfile2.txt /c/Users/selia/OneDrive/th\ köln/3\ Semester
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ mv ../textfile2.txt /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+
+Quiz
+How do you rename a file called cat to dog?
+mv cat dog
+```
+```
+# Frage 12 mkdir (Make Directory)
+Exercises
+Make a couple of directories and move some files into that directory.
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ mkdir wichtig
+
+Quiz
+What command is use to make a directory?
+mkdir
+```
+```
+
 
 
 
