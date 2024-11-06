@@ -106,7 +106,7 @@ What's a good way to see the contents of a file?
 cat
 ```
 ```
-# Frage 8
+# Frage 8 less
 Exercises
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.
 ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
@@ -122,6 +122,83 @@ h - If you need a little help about how to use less while you’re in less, use 
 Quiz
 How do you quit out of a less command?
 q
+```
+```
+# Frage 9 history
+Exercises
+Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.
+
+$ history
+    1  pwd
+    2  touch test.txt
+    3  echo Hello World
+    4  date
+    5  whoami
+    6  pwd
+    7  cd .
+    8  cd ..
+    9  cd ~
+   10  cd -
+   11  cd
+   12  ls -R
+   13  clear
+   14  ls -r
+   15  touch superduperfile
+   16  ls -l
+   17  ls -l superduperfile
+   18  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   19  touch superduperfile
+   20  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   21  $ ls -l superduperfile
+   22  ls -l superduperfile
+   23  file banana,jpg
+   24  file.jpg
+   25  file banana.jpg
+   26  cd ~
+   27  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   28  file DIS08_WS24_01_Introduction.pdf
+   29  cat DIS08_WS24_01_Introduction.pdf
+   30  64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c;1;120;120;1;0x64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c64;1;2;4;6;9;11;15;21;22;28;29c
+   31  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   32  cd -
+   33  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   34  cd .
+   35  cd ..
+   36  cat DIS13 Datenbanksysteme
+   37  cat DIS13\Datenbanksysteme
+   38  cd ~
+   39  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   40  less
+   41  less /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+   42  less OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+   43  q-
+   44  q
+   45  less q
+   46  less g
+   47  Page up
+   48  less /c/Users/selia/OneDrive/th köln/3 Semester/DIS11 Informationssysteme - Content­- & Dokumentenmanagementsysteme
+   49  less /c/Users/selia/OneDrive/th köln/3 Semester/DIS11 Informationssysteme - Content­- & Dokumentenmanagementsysteme/DIS 11 Informationssysteme 15.10.24
+   50  less /C/Users/selia/OneDrive/th köln/2 Semester/Lepsky/Lepsky
+   51  history
+   52  clear
+   53  history
+   54  mv superduperfile elianefile
+   55  mv elianefile /c/Users/selia/OneDrive/th köln/3 Semester
+   56  cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling
+   57  touch elianefile
+   58  echo "hallo" > git bash pfad.txt
+   59  cat git bash pfad.txt
+   60  echo "hallo" > textfile.txt
+   61  cat textfile.txt
+   62  less textfile.txt
+   63  q
+   64  less textfile.txt
+   65  less textfile.txt
+   66  less textfile.txt
+   67  history
+
+Quiz
+What is the command to clear the terminal?
 
 
 
