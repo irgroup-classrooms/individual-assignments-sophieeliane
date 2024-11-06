@@ -1,3 +1,4 @@
+```
 # Frage 1 The Shell 
 
 Exercises
@@ -7,7 +8,8 @@ $ whoami --> selia
 Quiz
 What should be outputted to the display when you type echo Hello World?
 Hello World
-
+```
+```
 # Frage 2 pwd (Print Working Directory)
 $ pwd --> /c/Users/selia
 
@@ -16,7 +18,8 @@ no exercises
 Quiz 
 How do I find what directory you are currently in?
 pwd
-
+```
+```
 # Frage 3 cd (Change Directory)
 
 Exercises
@@ -42,7 +45,8 @@ Quiz
 If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use?
 
 cd ..
-
+```
+```
 # Frage 4
 
 Exercises
@@ -62,7 +66,8 @@ Flags like -R, -r, and -t customize how ls shows the contents of a directory, ma
 
 Quiz 
 What command would you use to see hidden files? --> ls -a
-
+```
+```
 # Frage 5 touch 
 $ ls -l superduperfile
 -rw-r--r-- 1 ladmin 197121 0 Oct 30 14:46 superduperfile
@@ -71,7 +76,8 @@ Quiz
 
 How do you create a file called myfile?
 touch myfile
-
+```
+```
 # Frage 6 file
 
 Exercises
@@ -83,6 +89,7 @@ DIS08_WS24_01_Introduction.pdf: PDF document, version 1.3, 8 page(s)
 Quiz
 
 What command can you use to find the file type of a file? --> file
+```
 ```
 # Frage 7 cat
 Excersice
