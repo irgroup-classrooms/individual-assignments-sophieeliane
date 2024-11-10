@@ -479,7 +479,23 @@ How do you see the manuals for a command?
 man
 ```
 ```
-# Frage 17
+# Frage 17 whatis
+Exercises
+Run the whatis command on the less command.
+$ whatis less
+bash: whatis: command not found
+
+this command does not exist for windows :(
+
+Quiz
+What command can you use to see a small description of a command?
+whatis
+```
+```
+# Frage 18 alias
+
+
+
 
 
 
