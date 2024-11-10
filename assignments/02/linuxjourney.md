@@ -242,6 +242,24 @@ What command is use to make a directory?
 mkdir
 ```
 ```
+# Frage 13 rm (Remove)
+Exercises
+Create a file called -file (don't forget the dash!).
+Remove that file.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ touch eliane.txt
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ rm eliane.txt
+
+Quiz
+How do you remove a file called myfile?
+rm myfile
+```
+```
+# Frage 14 find
+Exercises
+Find a file from the root directory that has the word net in it.
 
 
 
