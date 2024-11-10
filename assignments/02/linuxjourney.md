@@ -493,9 +493,51 @@ whatis
 ```
 ```
 # Frage 18 alias
+Exercises
+Create a couple of aliases then remove them.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ alias hilfe='help'
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ hilfe pwd
+pwd: pwd [-LPW]
+    Print the name of the current working directory.
+
+    Options:
+      -L        print the value of $PWD if it names the current working
+                directory
+      -P        print the physical directory, without any symbolic links
+      -W        print the Win32 value of the physical directory
+
+    By default, `pwd' behaves as if `-L' were specified.
+
+    Exit Status:
+    Returns 0 unless an invalid option is given or the current directory
+    cannot be read.
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ unalias hilfe
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ hilfe pwd
+bash: hilfe: command not found
 
 
+Quiz
+What command is used to make an alias?
+alias
+```
+```
+# Frage 19 exit
+Exercises
+Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.
+ it worked
+exit
+logout
 
+Quiz
+How can you exit from the shell?
+exit
 
 
 
