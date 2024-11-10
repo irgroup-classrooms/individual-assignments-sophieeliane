@@ -260,6 +260,15 @@ rm myfile
 # Frage 14 find
 Exercises
 Find a file from the root directory that has the word net in it.
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ find /d -name net
+/d/phyton/Library/include/aws/core/net
+/d/phyton/pkgs/aws-sdk-cpp-1.10.55-hd77b12b_0/Library/include/aws/core/net
+
+Quiz
+What option should I specify for find if I want to search by name?
+-name
+
 
 
 
