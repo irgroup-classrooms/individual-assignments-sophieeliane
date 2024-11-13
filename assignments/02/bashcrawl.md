@@ -1,4 +1,4 @@
-cd /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling/bashcrawl-stable-2024.02.09/bashcrawl-stable-2024.02.09/entrance
+   96 cd: /c/Users/selia/OneDrive/th\ köln/3\ Semester/DIS08\ DatenmodellierungData\ Modelling/bashcrawl-stable-2024.02.09/bashcrawl-stable-            2024.02.09/entrance
    
    97  cat scroll
    
