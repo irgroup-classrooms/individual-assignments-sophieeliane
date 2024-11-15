@@ -15,3 +15,8 @@ $ wc -l *.tsv
    507732 2014-01_JA.tsv
      5375 2014-02-02_JA-britain.tsv
    554211 total
+
+How do you get the file with the highest number of lines and how many does it have? Can you get the output with a single command line call?
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/OneDrive/th köln/3 Semester/DIS08 DatenmodellierungData Modelling
+$ wc -l *.tsv | grep -v 'total' | sort -nr | head -n 1
+   507732 2014-01_JA.tsv
