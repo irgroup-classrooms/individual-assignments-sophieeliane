@@ -11,8 +11,11 @@ Remember that you can use different tools like `grep`, `awk`, or `sed` to use re
 You can add your command line in- and outputs directly to this README file. Alternatively, you can write a bash script with all commands and commit it to this directory.
 
 1. Extract all email addresses from the text.
-``` 
+```
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ cd /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ grep -E -o "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" contacts.csv
 john.doe@example.com
 jane.smith@gmail.com
@@ -27,7 +30,9 @@ ssilver@university.edu
 
 ``` 
 2. Extract all phone numbers from the text.
-``` 
+```
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ grep -P -o "\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}" contacts.csv
 (555) 123-4567
 (555) 987-6543
@@ -42,7 +47,9 @@ $ grep -P -o "\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}" contacts.csv
 
 ``` 
 3. Extract all names that start with the letter ‘J’.
-``` 
+```
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ grep -P -o "\bJ[a-zA-Z]+" contacts.csv
 John
 Jane
@@ -50,7 +57,9 @@ Johnson
 
 ``` 
 4. Extract all street names that contain the word 'St'.
-``` 
+```
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ grep -P -o "\b[A-Za-z0-9.,' ]*St[A-Za-z0-9.,' ]*\b" contacts.csv
 John Doe, 123 Main St, Anytown, USA, john.doe
 Jane Smith, 456 Oak St, Sometown, USA, jane.smith
@@ -63,7 +72,7 @@ Chris Blue, 864 Chestnut St, Metropolis, USA, cblue
 ``` 
 5. Extract all addresses in ‘USA’.
 ``` 
-ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (Aufgabe3)
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ grep -P -o ".*, USA\b" contacts.csv
 John Doe, 123 Main St, Anytown, USA
 Jane Smith, 456 Oak St, Sometown, USA
@@ -78,7 +87,9 @@ Susan Silver, 975 Cypress Ave, Bigcity, USA
 
 ``` 
 6. Extract the last names of all people.
-``` 
+```
+
+ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
 $ awk -F, '{print $1}' contacts.csv | awk '{print $NF}'
 Doe
 Smith
