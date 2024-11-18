@@ -12,6 +12,18 @@ You can add your command line in- and outputs directly to this README file. Alte
 
 1. Extract all email addresses from the text.
 ``` 
+$ cd /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv
+$ grep -E -o "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" contacts.csv
+john.doe@example.com
+jane.smith@gmail.com
+mjohnson@yahoo.com
+lharris@hotmail.com
+rbrown@company.com
+alice.white@domain.org
+dgreen@domain.net
+eblack@webmail.com
+cblue@provider.com
+ssilver@university.edu
 
 ``` 
 2. Extract all phone numbers from the text.
