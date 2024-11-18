@@ -122,8 +122,9 @@ university.edu
 8.	Extract all instances of the first name ‘David’ along with their full address (street and city).
 ``` 
 ladmin@SLY-SBOOK3 MINGW64 /c/Users/selia/Desktop/individual-assignments-sophieeliane/assignments/04/csv (main)
-$ grep "David" contacts.csv
-David Green, 246 Birch St, Uptown, USA, dgreen@domain.net, (555) 246-1357
+$ grep 'David' contacts.csv | awk '{print $1,$2,$3,$4,$5,$6,$7}'
+David Green, 246 Birch St, Uptown, USA,
+
 
 ``` 
 9.	Find all entries where the phone number ends with ‘7’.
