@@ -39,15 +39,11 @@ value.replace(/,\s*Caught/, " Caught")
 komma vor caught entfernen
 
 ```
-````
+```
 Document your working steps in a Markdown-formatted file. Export your dataset as a clean CSV file. Add both files to this repository (in this directory).
 ```
-```
-Analyze the data set using shell scripts and/or regex. Document the commands in an additional section in your Markdown-formatted file.
-Find the total number of lines and unique words used in the dialogs.
-What is the distribution on the three different films?
-What are the top 5 characters in the char column?
-What are the top 5 characters in the dialogues?
+
+
 # Data Analysis of LOTR Dialogs
 
 This document provides an analysis of the LOTR dialogs dataset. The analysis was conducted to answer specific questions about the dataset.
