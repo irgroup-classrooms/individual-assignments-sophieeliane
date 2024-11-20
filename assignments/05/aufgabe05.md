@@ -14,7 +14,30 @@ Identify "dirty" data fields and clean them up. Use regex replace, spreadsheets,
 
 Example:
 value.replace(" *","")
- Gandalf?  -> Gandalf?  
+macht das leerzeichen vor dem Wort weg 
+ Gandalf?  -> Gandalf?
+
+value.trim()
+entfernt zusätzliche leerzeichen
+
+value.replace(/\s+/, " ")
+Das entfernt führende/nachfolgende Leerzeichen und reduziert alle mehrfachen Leerzeichen auf ein einziges
+
+value.replace(/\s+,/, ",").replace(/,\s+/, ", ")
+alle Leerzeichen-Probleme auf einmal lösen
+
+value.replace(/,{2,}/, ",")
+doppeltes komma zu einem ersetzten
+
+value.replace(/,\s*$/, "")
+hinteres komma weg
+
+value.replace(")", "")
+) entfernen
+
+value.replace(/,\s*Caught/, " Caught")
+komma vor caught entfernen
+
 ```
 ````
 Document your working steps in a Markdown-formatted file. Export your dataset as a clean CSV file. Add both files to this repository (in this directory).
